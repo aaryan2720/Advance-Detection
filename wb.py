@@ -5,9 +5,6 @@ import cv2
 import cvzone
 from ultralytics import YOLO
 
-# cap = cv2.VideoCapture(1)  # For Webcam
-# cap.set(3, 1280)
-# cap.set(4, 720)
 cap = cv2.VideoCapture("../Videos/cars.mp4")  
 model = YOLO("../Yolo-Weights/yolov8l.pt")
 
