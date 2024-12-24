@@ -5,7 +5,7 @@ import cv2
 import cvzone
 from ultralytics import YOLO
 
-cap = cv2.VideoCapture("../Videos/cars.mp4")  
+cap = cv2.VideoCapture("../Videos/cars.mp4")  #Add any video file in folder called "Videos" 
 model = YOLO("../Yolo-Weights/yolov8l.pt")
 
 classNames = ["person", "bicycle", "car", "motorbike", "aeroplane", "bus", "train", "truck", "boat",
